@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Coffee Shop</title>
+        <style>
+            body{
+                margin:0%;
+                font-family: arial;
+                background-color: aquamarine;
+            }
+            h1{
+                color: brown;
+                background-color: white;
+                text-align: center;
+                padding: 20px;
+            }
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card img{
+    width:220px ;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card{
+    width: 300px;
+    padding: 15px;
+    border-radius: 40px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 0 0 10px gray;
+}
+button{
+    background-color: blueviolet;
+    color: aqua;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+    padding: 10px 20px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+button:hover{
+    background-color: black;
+}
+        </style>
+    </head>
+</html>

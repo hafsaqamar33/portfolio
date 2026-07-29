@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header>
+    <h1>Hafsa Qamar</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section class="hero">
+    <img src="download.hq.png" width="180">
+    <h2>Hello, I'm Hafsa</h2>
+    <p>Web Development Student</p>
+    <button onclick="showMessage()">Hire Me</button>
+</section>
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a Computer Science student and currently learning HTML, CSS and JavaScript.
+My goal is to become a professional Web Developer.
+</p>
+</section>
+<section id="skills">
+<h2>My Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+</section>
+<section id="projects">
+<h2>My Projects</h2>
+<div class="card">
+<h3>To Do List</h3>
+<p>Task Management Website</p>
+<a href="to-dolist.html">
+    <button>View Project</button>
+</a>
+</div>
+<div class="card">
+<h3>Login Form</h3>
+<p>Animated Login Page</p>
+<a href="login.html">
+    <button>View Project</button>
+</a>
+</div>
+<div class="card">
+    <h3>Calculator</h3>
+    <p>A simple calculator built with HTML,CSS & JavaScript.
+    </p>
+    <a href="calculator.html">
+        <button>View Project</button>
+    </a>
+</div>
+<div class="card">
+<h3>Coffee Shop</h3>
+<p>Responsive Coffee Website</p>
+<a href="project1coffee.html">
+    <button>View Project</button>
+</a>
+</div>
+<div class="card">
+<h3>Pizza House</h3>
+<p>Responsive Pizza Website</p>
+<a href="project2.pizza.html">
+    <button>View Project</button>
+</a>
+</div>
+<div class="card">
+    <h3>Clothing Brand</h3>
+    <p>Responsive Clothing Website</p>
+    <a href="clothing.html">
+        <button>View Project</button>
+    </a>
+</div>
+</section>
+<section id="contact">
+<h2>Contact Me</h2>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Your Message"></textarea>
+<button onclick="sendMessage()">Send</button>
+</section>
+<footer>
+<p>© 2026 Hafsa Qamar</p>
+</footer>
+<script src="portfolio.js"></script>
+</body>
+</html>
